@@ -1,0 +1,31 @@
+#display {
+	border: 2px solid red;
+	height: 700px;
+	width: 1050px;
+	float: left;
+}
+
+#scoreboard {
+	border: 2px solid blue;
+	float: right;
+	height: 700px;
+	width: 400px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+#target {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	height: 40px;
+	width: 40px;
+	background-color: Tomato;
+	border-radius: 50%;
+}
+
+.life {
+	height: 5rem;
+	width: 5.4rem;
+	/* margin: 1rem; */
+}

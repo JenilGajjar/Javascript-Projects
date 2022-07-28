@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title></title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="stylesheet.css">
+   <script src="./index.js" async defer></script>
+</head>
+
+<body onload="changeLocationOfFood()" onkeydown="keyPress(event)">
+   <div id="game">
+      <div>
+         <div id="display">
+            <div id="food"></div>
+            <img src="./snake.jpg" alt="" srcset="" id="snake"
+               style="position:absolute;top:150px;left: 150px;height: 150px;width:150px;">
+         </div>
+      </div>
+      <div id="score">
+         <div id="points">score : 0 </div>
+         <div id="heart">
+            <img src="life.webp" class="life" alt="" srcset="">
+            <img src="life.webp" class="life" alt="" srcset="">
+            <img src="life.webp" class="life" alt="" srcset="">
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>
