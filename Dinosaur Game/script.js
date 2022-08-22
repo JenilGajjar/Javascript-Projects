@@ -18,7 +18,7 @@ var checkDead = setInterval(() => {
     score += 3;
     scoreBoard.innerHTML = score;
     console.log(score);
-    if (blockLeft >= 0 && blockLeft <= 50 && playerTop >= 380) {
+    if (blockLeft >= 30 && blockLeft <= 80 && playerTop >= 380) {
         alert("game over");
         player.style.animation = "none";
         block.style.animation = "none";
